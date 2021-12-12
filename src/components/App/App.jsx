@@ -19,13 +19,6 @@ class App extends Component {
     filter: "",
   };
 
-  // componentDidMount() {
-  //   const savedCities = storage.get(STORAGE_KEY);
-  //   if (savedCities) {
-  //     this.setState({ cities: savedCities });
-  //   }
-  // }
-
   componentDidMount() {
     const savedContacts = storage.get(STORAGE_KEY);
     if (savedContacts) {
